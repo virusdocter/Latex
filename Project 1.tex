@@ -1,0 +1,55 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Text g o e s h e r e } % On t o p o f document h i e r a r c h y ;
+a u t o m a t i c a l l y numbered
+\subsection{}
+\subsubsection{}
+\paragraph {} % Paragraphs have no number ing
+\subparagraph {}
+\author{ Claudio Vellage } % The a u t h o r s name
+\title{A quick start to \LaTeX{}} % The t i t l e o f t h e
+document
+\date{\today{}} % S e t s d a t e you can remove \ t o d ay {} and
+t y p e a d a t e manually
+\maketitle{} % Genera tes t i t l e
+\tableofcontents {} % Genera tes t a b l e o f c o n t e n t s from
+s e c t i o n s and s u b s e c t i o n s
+\\ % L i neb re ak
+\newpage{} % Pagebreak
+
+\begin{thebibliography}{9}
+\bibitem{latexcompanion} 
+Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+\textit{The \LaTeX\ Companion}. 
+Addison-Wesley, Reading, Massachusetts, 1993.
+ 
+\bibitem{einstein} 
+Albert Einstein. 
+\textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+[\textit{On the electrodynamics of moving bodies}]. 
+Annalen der Physik, 322(10):891–921, 1905.
+ 
+\bibitem{knuthwebsite} 
+Knuth: Computers and Typesetting,
+\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\end{thebibliography}
+
+\begin{align}
+f(x) &= x^2\\
+f'(x) &= 2x\\
+F(x) &= \int f(x)dx\\
+F(X) &x \frac{x}{3}x^3
+\end{align}
+
+\begin{figure}
+\includegraphics[width=0.8\textwidth]{photo/girl.jpg}
+\caption{This giril is so hot!!}
+\end{figure}
+
+\end{document}
